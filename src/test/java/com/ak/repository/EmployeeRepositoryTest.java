@@ -95,7 +95,7 @@ public class EmployeeRepositoryTest {
     // Unit test for get employee by email
     @Test
     @DisplayName("Unit test for get employee by email")
-    public void givenEmployeeEmail_whenFindByEmail_thenReturnEmaployee(){
+    public void givenEmployeeEmail_whenFindByEmail_thenReturnEmployee(){
 
         // Given - Pre-Condition or Setup
         Employee employee = Employee.builder()
